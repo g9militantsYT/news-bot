@@ -66,17 +66,19 @@ async function sendNewsToChannels(news, channels) {
             const guild = await client.guilds.fetch(guildId);
             const channel = await guild.channels.fetch(channelId);
 
-            const newsEmbed = {
-                color: 0x0099ff,
-                title: 'Latest News',
-                fields: news.map(article => ({ name: article.title, value: article.url })),
-                timestamp: new Date(),
-                footer: {
-                    text: 'News Bot',
-                },
-            };
+            for (const article of news) {
+                const newsEmbed = {
+                    color: 0x0099ff,
+                    title: article.title,
+                    url: article.url,
+                    timestamp: new Date(),
+                    footer: {
+                        text: `Source: ${article.source.name} • ${article.publishedAt.toLocaleString()}`,
+                    },
+                };
 
-            await channel.send({ embeds: [newsEmbed] });
+                await channel.send({ embeds: [newsEmbed] });
+            }
         } catch (error) {
             console.error(`Error sending news to channel ${channelId} in guild ${guildId}:`, error.message);
         }
