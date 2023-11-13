@@ -1,0 +1,28 @@
+info: Bot starting... {"timestamp":"2023-11-13T07:34:54.525Z"}
+info: Started refreshing application (/) commands. {"timestamp":"2023-11-13T07:34:54.601Z"}
+info: Successfully reloaded application (/) commands. {"timestamp":"2023-11-13T07:34:55.731Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T07:34:56.446Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T07:34:56.784Z"}
+info: Setchannel command executed by g9aerospace {"timestamp":"2023-11-13T07:35:15.554Z"}
+info: Bot starting... {"timestamp":"2023-11-13T07:38:06.161Z"}
+warn: Error loading channels from file: {"timestamp":"2023-11-13T07:38:06.249Z"}
+info: Started refreshing application (/) commands. {"timestamp":"2023-11-13T07:38:06.250Z"}
+error: Error refreshing commands: Invalid Form Body
+1.options[0][UNION_TYPE_CHOICES]: Value of field "type" must be one of (4, 5, 11, 3, 7, 9, 8, 2, 10, 6, 1). {"timestamp":"2023-11-13T07:38:06.883Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T07:38:08.069Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T07:38:08.403Z"}
+info: Bot starting... {"timestamp":"2023-11-13T07:43:03.768Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T07:43:05.613Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T07:43:05.991Z"}
+info: Bot starting... {"timestamp":"2023-11-13T08:03:36.165Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T08:03:38.200Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T08:03:38.529Z"}
+info: Bot starting... {"timestamp":"2023-11-13T08:04:36.795Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T08:04:38.721Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T08:04:38.927Z"}
+info: Bot starting... {"timestamp":"2023-11-13T08:05:05.392Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T08:05:07.394Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T08:05:07.876Z"}
+info: Bot starting... {"timestamp":"2023-11-13T08:11:36.140Z"}
+info: Bot logged in successfully {"timestamp":"2023-11-13T08:11:38.244Z"}
+info: Logged in as News#6843 {"timestamp":"2023-11-13T08:11:38.608Z"}
