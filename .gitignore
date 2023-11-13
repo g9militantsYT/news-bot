@@ -1,1 +1,7 @@
 .env
+sftp.json
+node_modules
+logs
+news
+channels.json
+latestNews.json
